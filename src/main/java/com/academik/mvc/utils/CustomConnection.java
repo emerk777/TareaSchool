@@ -21,13 +21,13 @@ public class CustomConnection {
     
     private CustomConnection() { }
     
-    private static final String DRIVER = "org.postgresql.Driver";
+    private static final String DRIVER = "com.mysql.jdbc.Driver";
     private static final String HOST = "localhost";
-    private static final String DATA_BASE = "academik";
-    private static final int PORT = 5432;
-    private static final String URL = "jdbc:postgresql://" + HOST + ':' + PORT + '/' + DATA_BASE;
-    private static final String USER = "postgres";
-    private static final String PASS = "1234qwer";
+    private static final String DATA_BASE = "school";
+    private static final int PORT = 3306;
+    private static final String URL = "jdbc:mysql://" + HOST + ':' + PORT + '/' + DATA_BASE + "?useSSL=false";
+    private static final String USER = "root";
+    private static final String PASS = "MySQLPassword77!";
     
     public Connection getConnection()
             throws ClassNotFoundException, SQLException {
