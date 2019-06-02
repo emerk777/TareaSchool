@@ -14,6 +14,7 @@ proveniente del StudentController, método doGet.
     scope="request" 
     class="List<Student>" />
     
+    
 <table class="table">
     <thead>
         <tr>
