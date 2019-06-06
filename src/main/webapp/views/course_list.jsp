@@ -17,6 +17,7 @@
             <th>Name</th>
             <th>Description</th>
             <th>Credits</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -26,11 +27,19 @@
             <td><%= s.getDescription() %></td>
             <td><%= s.getCredits() %></td>
             <td>
-                <a class="btn btn-primary" href="courses/edit?id=<%= s.getCode() %>">Editar</a>
-                <a class="btn btn-primary" href="courses/view?id=<%= s.getCode() %>">Ver</a>
+                <a class="btn btn-primary" href="courses/edit?id=<%= s.getCode() %>">Edit</a>
+                <a class="btn btn-primary" href="courses/view?id=<%= s.getCode() %>">View</a>
             </td>
         </tr>
         <%}%>
+    </tbody>    
+</table>
+    
+<table> 
+    <tbody>
+        <tr>
+            <a class="btn btn-primary" href="courses/create">Add New Course</a>
+        </tr>
     </tbody>
 </table>
 

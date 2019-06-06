@@ -1,13 +1,14 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-<jsp:include page="../templates/header.jsp">
-    <jsp:param name="custom-title" value="Academik | ${single_course.name}"/>
-</jsp:include>
-
 <jsp:useBean 
     id="single_course" 
     scope="request" 
     class="com.academik.mvc.model.Course"/>
+
+<jsp:include page="../templates/header.jsp">
+    <jsp:param name="custom-title" value="Academik | ${single_course.name}"/>
+</jsp:include>
+
 
 <h1>Course Information</h1>
 

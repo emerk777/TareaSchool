@@ -6,13 +6,14 @@
 
     <h1>New Course</h1>
     <form method="POST">
+        
         <div class="form-group">
             <label for="c_name">Name</label>
             <input class="form-control" type="text" name="c_name"/>
         </div>
         <div class="form-group">
-            <label for="c_Description">Description</label>
-            <input class="form-control" type="text" name="c_Description"/>
+            <label for="c_description">Description</label>
+            <input class="form-control" type="text" name="c_description"/>
         </div>
         <div class="form-group">
             <label for="c_credits">Credits</label>

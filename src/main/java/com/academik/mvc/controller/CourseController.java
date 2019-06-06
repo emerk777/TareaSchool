@@ -93,13 +93,6 @@ public class CourseController extends HttpServlet{
         resp.sendRedirect(req.getContextPath() + "/courses");
     }
 
-    /**
-     *
-     * @param req
-     * @param resp
-     * @throws ServletException
-     * @throws IOException
-     */
     @Override
     protected void doPut(HttpServletRequest req, HttpServletResponse resp) 
             throws ServletException, IOException {

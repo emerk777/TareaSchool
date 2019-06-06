@@ -23,7 +23,7 @@
     </div>
     <div class="row">
         <div class="col">Fecha de nacimiento</div>
-        <div class="col">${single_student.birthday}</div>
+        <div class="col">${single_student.birthdayAsString}</div>
     </div>
     <div class="row">
         <div class="col">Encargado (a)</div>
